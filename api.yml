@@ -1,4 +1,4 @@
-connectionString: ${database}
+connectionString: "{keyvault}database"
 connectionStringTest: ${vault.api.username}
 multi-tenand:
 - clientA:
