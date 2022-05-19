@@ -1,4 +1,4 @@
-connectionString: "{keyvaul}database.host"
+connectionString: "{keyvault}database.host"
 connectionStringTest: ${database.username}
 multi-tenand:
 - clientA:
