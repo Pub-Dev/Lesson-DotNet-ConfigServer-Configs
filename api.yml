@@ -1,5 +1,5 @@
-connectionString: ${vault.database}
-connectionStringTest: ${vault.username}
+connectionString: ${vault.api.database}
+connectionStringTest: ${vault.api.username}
 multi-tenand:
 - clientA:
     connectionString1: clientA
