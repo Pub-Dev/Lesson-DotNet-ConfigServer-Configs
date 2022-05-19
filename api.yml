@@ -1,5 +1,5 @@
-connectionString: ${api.database.username}
-connectionStringTest: ${database.username}
+connectionString: ${database}
+connectionStringTest: ${username}
 multi-tenand:
 - clientA:
     connectionString1: clientA
