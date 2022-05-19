@@ -1,5 +1,5 @@
 connectionString: "{keyvault}database"
-connectionStringTest: ${database}
+connectionStringTest: ${database.teste}
 multi-tenand:
 - clientA:
     connectionString1: clientA
