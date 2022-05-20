@@ -1,11 +1,6 @@
-connectionString: "{keyvault}database"
-connectionStringTest: ${database}
-multi-tenand:
-- clientA:
-    connectionString1: clientA
-    connectionString2: clientA
-    connectionString3: clientA
-- clientB:
-    connectionString1: clientB
-    connectionString2: clientB
-    connectionString3: clientB
+database:
+    host: ${sqlserver.host}
+    user: ${sqlserver.user}
+    password: ${sqlserver.password}
+    database: ${sqlserver.database}
+connectionString: "Server=${database.host};Database=${database.database};User Id=${database.user};Password=${database.password};"
