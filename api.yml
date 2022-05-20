@@ -1,6 +1,6 @@
 database:
-    host: ${sqlserver.host}
-    user: ${sqlserver.user}
-    password: ${sqlserver.password}
-    database: ${sqlserver.database}
-connectionString: "Server=${database.host};Database=${database.database};User Id=${database.user};Password=${database.password};"
+    host: ${sqlserver:host}
+    user: ${sqlserver:user}
+    password: ${sqlserver:password}
+    database: ${sqlserver:database}
+connectionString: "Server=${database:host};Database=${database:database};User Id=${database:user};Password=${database:password};"
