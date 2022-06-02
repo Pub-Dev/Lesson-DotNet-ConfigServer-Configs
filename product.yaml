@@ -1,2 +1,3 @@
 ConnectionString:
     SqlServer: "Server=${SqlServer.Host}, ${SqlServer.Port};Database=${SqlServer.Database};User Id=${SqlServer.Username};Password=${SqlServer.Password};"
+    Redis: "${Cassandra.Host}:${Cassandra.Port},password=${Cassandra.Password},ssl=False,abortConnect=False,defaultDatabase=0,instanceName=${Cassandra.Database}",
