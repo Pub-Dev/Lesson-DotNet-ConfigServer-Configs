@@ -1,2 +1,2 @@
-sqlServer:
-    database: db-user-staging
+SqlServer:
+    Database: db-user-staging
