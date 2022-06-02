@@ -1,0 +1,2 @@
+connectionString:
+    sqlServer: "Server=${sqlserver.host}, ${sqlserver.port};Database=${sqlserver.database};User Id=${sqlserver.username};Password=${sqlserver.password};"

@@ -1,1 +1,4 @@
-log-level: "Warning"
+Logging:
+  LogLevel:
+    Default: "Fatal"
+    Microsoft.AspNetCore: "Fatal"
