@@ -1,2 +1,7 @@
+Redis:
+    InstanceName: product-production
+    DefaultDatabase: 15
+Cassandra:
+    KeySpace: product-production
 SqlServer:
     Database: db-product-production

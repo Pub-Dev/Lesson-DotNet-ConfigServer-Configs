@@ -1,2 +1,7 @@
+Redis:
+    InstanceName: product-staging
+    DefaultDatabase: 0
+Cassandra:
+    KeySpace: product-staging
 SqlServer:
     Database: db-product-staging

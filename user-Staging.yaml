@@ -1,4 +1,4 @@
-Cassandra:  
-    KeySpace: user    
+Cassandra:
+    KeySpace: user-staging
 SqlServer:
     Database: db-user-staging
