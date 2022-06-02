@@ -1,4 +1,4 @@
 Logging:
   LogLevel:
-    Default: "Fatal"
-    Microsoft.AspNetCore: "Fatal"
+    Default: "Error"
+    Microsoft.AspNetCore: "Error"
