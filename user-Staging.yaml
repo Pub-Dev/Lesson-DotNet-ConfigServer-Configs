@@ -1,3 +1,2 @@
 SqlServer:
-    Host: localhost123
     Database: db-user-staging
