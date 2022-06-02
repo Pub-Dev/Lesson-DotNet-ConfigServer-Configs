@@ -1,2 +1,4 @@
-sqlServer:
-    database: db-user-production
+Cassandra:  
+    KeySpace: user-production
+SqlServer:
+    Database: db-user-production
