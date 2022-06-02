@@ -1,2 +1,2 @@
-sqlserver:
+sqlServer:
     database: db-product-production
