@@ -2,3 +2,7 @@ Logging:
   LogLevel:
     Default: "Warning"
     Microsoft.AspNetCore: "Warning"
+
+Urls:
+  Product: https://api-staging.pubdev.com/product
+  User: https://api-staging.pubdev.com/user

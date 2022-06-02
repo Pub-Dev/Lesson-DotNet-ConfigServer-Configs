@@ -1,2 +1,4 @@
-connectionString:
-    sqlServer: "Server=${sqlserver.host}, ${sqlserver.port};Database=${sqlserver.database};User Id=${sqlserver.username};Password=${sqlserver.password};"
+SqlServer:
+    Host: localhost123
+ConnectionString:
+    SqlServer: "Server=${SqlServer.Host}, ${SqlServer.Port};Database=${SqlServer.Database};User Id=${SqlServer.Username};Password=${SqlServer.Password};"

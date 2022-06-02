@@ -1,2 +1,2 @@
-sqlServer:
-    database: db-product-staging
+SqlServer:
+    Database: db-product-staging
