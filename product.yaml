@@ -1,3 +1,4 @@
 ConnectionString:
     SqlServer: "Server=${SqlServer.Host}, ${SqlServer.Port};Database=${SqlServer.Database};User Id=${SqlServer.Username};Password=${SqlServer.Password};"
-    Redis: "${Cassandra.Host}:${Cassandra.Port},password=${Cassandra.Password},ssl=False,abortConnect=False,defaultDatabase=0,instanceName=${Cassandra.Database}",
+    Redis: "${Redis.Host}:${Redis.Port},password=${Redis.Password},ssl=False,abortConnect=False,defaultDatabase=0,instanceName=${Redis.Database}"
+    Cassandra: "host=${Cassandra.Host};port=${Cassandra.Port};user=${Cassandra.User};password=${Cassandra.Password};keyspace=${Cassandra.KeySpace};ssl=false"
